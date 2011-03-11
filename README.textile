@@ -6,8 +6,8 @@ h3. Usage
 <pre>
   include('fs_qtranslate_js_adapter.php')
 
-  if ( defined('QTRANS_INIT') && !has_action('admin_head','fs_qtranslate_adapter_js') ) {
-    add_action('admin_head', 'fs_qtranslate_adapter_js');
+  if ( defined('QTRANS_INIT') && !has_action('admin_head','fs_qtranslate_js_adapter') ) {
+    add_action('admin_head', 'fs_qtranslate_js_adapter');
   }
 </pre>
 
